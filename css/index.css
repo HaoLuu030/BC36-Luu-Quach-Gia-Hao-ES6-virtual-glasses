@@ -1,0 +1,89 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f1f1f1;
+}
+
+/* MAIN CSS */
+.vglasses__left {
+  background-color: white;
+  padding: 20px 40px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.vglasses__left .col-4 {
+  align-self: center;
+}
+.vglasses__items {
+  cursor: pointer;
+}
+
+.vglasses__right {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vglasses__model {
+  background-image: url("../img/model.jpg");
+  background-position: center top;
+  background-size: cover;
+  height: 600px;
+}
+
+.vglasses__model img {
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  width: 238px;
+  height: 85px;
+  opacity: 0.9;
+}
+
+.vglasses__card {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.vglasses__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  color: white;
+  display: none;
+  padding: 20px;
+}
+
+.vglasses__info #brandname {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.vglasses__info #price {
+  background-color: rgba(255, 0, 0, 0.532);
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  width: 60px;
+  margin: 0;
+}
+
+.vglasses__info #stocking {
+  color: green;
+  margin: 0;
+  margin-left: -40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.vglasses__info #description {
+  margin: 10px 0 0;
+}
+
+#glasses {
+  transition: all 0.5s;
+}
