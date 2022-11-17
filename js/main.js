@@ -111,7 +111,7 @@ window.showGlasses = (imgSource, name, brand, color, price, description) => {
   //put on glasses
   let avatarHtml = document.getElementById("avatar");
   avatarHtml.innerHTML = `<img id="glasses" src="${imgSource}">`;
-
+  //show information
   document.getElementById("glassesInfo").style.display = "block";
   let infoHtml = document.getElementById("glassesInfo");
   infoHtml.innerHTML = `
